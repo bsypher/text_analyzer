@@ -1,4 +1,4 @@
-lines = File.readlines("text.txt")
+lines = File.readlines(ARGV[0])
 line_count = lines.size
 text = lines.join 
 
